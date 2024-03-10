@@ -1,0 +1,131 @@
+/* styles.css */
+
+/* Réinitialisation des styles de base */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f2e2; /* Couleur crème pour le fond */
+    color: #5e4934; /* Couleur marron foncé pour le texte */
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #7d5f4a; /* Marron pour l'en-tête */
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Ajustement de la taille de l'en-tête */
+}
+
+/* Styles pour le texte du logo */
+header h1 {
+    margin: 0;
+    font-size: 36px; /* Taille de police augmentée à 36px, ajustez selon vos préférences */
+}
+
+/* Styles spécifiques au logo */
+.logo {
+    font-size: 24px; /* Augmentation de la taille de la police à 24px, ajustez selon vos préférences */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+/* Styles de la barre de navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Espacement entre les éléments de navigation */
+nav li {
+    margin: 0 30px;
+}
+
+/* Modification de la couleur des liens de navigation */
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Changement de couleur au survol des liens de navigation */
+nav a:hover {
+    color: #9b7d61;
+}
+
+/* Styles des sections du contenu */
+section {
+    margin: 60px; /* Augmentation de l'espace entre les sections */
+    text-align: center;
+}
+
+/* Styles pour les listes non ordonnées */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Espacement entre les éléments de liste */
+li {
+    margin-bottom: 20px;
+}
+
+/* Styles pour les projets */
+.projet {
+    border: 1px solid #7d5f4a;
+    padding: 30px; /* Ajustement de la taille de la bordure */
+    margin-bottom: 40px; /* Augmentation de l'espace entre les projets */
+}
+
+/* Styles pour les liens généraux */
+a {
+    color: #5e4934;
+    text-decoration: none;
+}
+
+/* Changement de couleur au survol des liens généraux */
+a:hover {
+    color: #9b7d61;
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px; /* Ajustement de la taille du pied de page */
+    background-color: #7d5f4a; /* Marron pour le pied de page */
+    color: #fff;
+}
+
+/* Media Query pour les écrans de petite taille (téléphones) */
+@media only screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+    }
+}
+
+/* Media Query pour les écrans de taille moyenne à grande (tablettes, ordinateurs) */
+@media only screen and (min-width: 601px) {
+    header {
+        padding: 40px; /* Ajustement de la taille de l'en-tête pour les écrans plus grands */
+    }
+
+    nav ul {
+        padding: 40px; /* Ajustement de l'espace autour des liens de navigation pour les écrans plus grands */
+    }
+
+    section {
+        margin: 80px; /* Ajustement de l'espace entre les sections pour les écrans plus grands */
+    }
+
+    .projet {
+        padding: 40px; /* Ajustement de la taille de la bordure des projets pour les écrans plus grands */
+    }
+
+    footer {
+        padding: 40px; /* Ajustement de la taille du pied de page pour les écrans plus grands */
+    }
+}
