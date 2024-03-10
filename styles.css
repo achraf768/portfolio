@@ -20,12 +20,12 @@ header {
 /* Styles pour le texte du logo */
 header h1 {
     margin: 0;
-    font-size: 36px; /* Taille de police augmentée à 36px, ajustez selon vos préférences */
+    font-size: 36px; /* Taille de police augmentée à 36px  */
 }
 
 /* Styles spécifiques au logo */
 .logo {
-    font-size: 24px; /* Augmentation de la taille de la police à 24px, ajustez selon vos préférences */
+    font-size: 24px; /* Augmentation de la taille de la police à 24px */
     font-weight: bold; /* Met le texte en gras */
 }
 
